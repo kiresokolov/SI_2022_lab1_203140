@@ -1,0 +1,58 @@
+4.git clone https://github.com/kiresokolov/SI_2022_lab1_203140.git
+-Kloniranje na repoto
+cd SI_2022_lab1_203140
+-Vleguvanje vo lokalnoto repo
+5.git commit -a -m "Add 5 items to the shopping list"
+-Add i commit na shopping list
+6.git commit -a -m "Add quantities to the items."
+-Commit na shopping list
+7.git checkout -b branch1
+git checkout -b branch2
+-Kreiranje novi granki
+8.commit 9b5ea5b91cc6ead6645bc53a45bf3e6281348602 (HEAD -> branch2, master, branch1)
+Author: kiresokolov <kiresokolov@outlook.com>
+Date:   Fri Apr 8 21:37:21 2022 +0200
+
+    Add quantities to the items.
+
+commit 3193d6f9474cd42c84fc4ad8f72fee233a7e7c56
+Author: kiresokolov <kiresokolov@outlook.com>
+:
+9.git push --all origin
+-Push na site granki
+10.git checkout branch1
+11.git commit -a -m "Change quantity of item #5"
+-Add i commit na shopping list
+12.git checkout master
+13.git commit -a -m "Change quantity of item #2"
+14.git push --all origin
+15.git checkout branch2
+16.git commit -a -m "Modify item #4"
+17.commit d100442c717432b5ff1689b18fbf44f0b617797d (HEAD -> branch2)
+Author: kiresokolov <kiresokolov@outlook.com>
+Date:   Fri Apr 8 22:01:33 2022 +0200
+
+    Modify item #4
+
+commit 9b5ea5b91cc6ead6645bc53a45bf3e6281348602 (origin/branch2)
+Author: kiresokolov <kiresokolov@outlook.com>
+:
+18. git reset --soft HEAD^
+git commit -a -m "Modify item #4 and add item #6"
+-Se vrakja commitot da se modificira
+19.commit 92811062b911eb637071b15d02496465c7e348f7 (HEAD -> branch2)
+Author: kiresokolov <kiresokolov@outlook.com>
+Date:   Fri Apr 8 22:18:01 2022 +0200
+
+    Modify item #4 and add item #6
+
+commit 9b5ea5b91cc6ead6645bc53a45bf3e6281348602 (origin/branch2)
+Author: kiresokolov <kiresokolov@outlook.com>
+:
+20.git merge branch1
+-Nemashe konflikt
+-Merge made by the 'ort' strategy. So ff strategy
+21.git merge branch2
+-Imashe conflict go resiv so toa sto go prifativ edniot slucaj kako tochen
+
+
