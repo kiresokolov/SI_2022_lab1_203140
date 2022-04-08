@@ -1,5 +1,11 @@
 1.Sharska x 6
 2.Stek x 8
 3.Kolbasi x 4
+<<<<<<< HEAD
 4.Veshalica x 3
 5.Pivo x 24
+=======
+4.Veshalica x 3
+5.Pivo x 24
+
+>>>>>>> branch2
