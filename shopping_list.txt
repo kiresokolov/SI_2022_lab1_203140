@@ -1,5 +1,6 @@
 1.Sharska x 6
 2.Stek x 6
 3.Kolbasi x 4
-4.Veshalica x 3
+4.Rebra x 3
 5.Pivo x 20
+6.Veshalica x 3
